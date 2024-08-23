@@ -18,6 +18,7 @@ body {
     /* Unidade relativa para condizer com a tela */
 }
 
+
 .cabecalho__menu {
     display: flex;
     gap: 80px;

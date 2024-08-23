@@ -1,6 +1,12 @@
 @import url('https://fonts.cdnfonts.com/css/krona-one');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --cor-primaria: #000000;
+    --cor--secundaria: #f6f6f6;
+    --cor--terciaria: #22d4fd;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,8 +14,8 @@
 }
 
 body {
-    background-color: #000;
-    color: #f6f6f6;
+    background-color: var(--cor-primaria);
+    color: var(--cor--secundaria);
     font-family: "Montserrat", sans-serif;
     display: flex;
     flex-direction: column;
@@ -21,7 +27,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #000;
+    background-color: var(--cor-primaria);
     flex: 1; /* Faz com que o container ocupe o espaço disponível */
 }
 
@@ -47,16 +53,16 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color: #22d4fd;
+    color: var(--cor-primaria);
     text-decoration: none;
 }
 
 .container__conteudo__titulo {
     font-family: "Krona One", sans-serif;
     font-size: 36px;
-    color: #22d4fd;
+    color: var(--cor--terciaria);
     padding-bottom: 10px; /* Espaçamento abaixo dos títulos */
-    border-bottom: 2px solid #22d4fd; /* Linha abaixo dos títulos */
+    border-bottom: 2px solid var(--cor--terciaria); /* Linha abaixo dos títulos */
 }
 
 .container__conteudo__texto {
@@ -66,7 +72,7 @@ body {
 }
 
 .container__conteudo__texto a {
-    color: #22D4FD;
+    color: var(--cor--terciaria);
     text-decoration: none;
 }
 
@@ -83,8 +89,8 @@ body {
 
 .rodape {
     padding: 24px;
-    color: #000;
-    background-color: #22d4fd;
+    color: var(--cor-primaria);
+    background-color: var(--cor--terciaria);
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 20px;

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Krona+One&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+.conteudo__links__subtitulo {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #f6f6f6;
+}
+
+.conteudo__links__botao {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    width: 378px;
+    text-decoration: none;
+    color: #f6f6f6;
+    padding: 16px 0;
+    text-align: center;
+    border: 2px solid #22D4FD;
+    width: 378px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.conteudo__links__botao--img {
+    width: 38px;
+    height: 38px;
+}

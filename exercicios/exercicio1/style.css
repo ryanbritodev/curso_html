@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo-blog {
+    color: darkturquoise;
+}
+
+.texto-destaque {
+    color: mediumseagreen;
+}
+
+.urgente {
+    color: red
+}
